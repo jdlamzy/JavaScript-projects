@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: darkgrey;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+
+  color: blanchedalmond;
+}
+.container {
+  align-content: center;
+  background-color: lightseagreen;
+  margin: 3rem 8rem;
+  padding: 3rem;
+  display: block;
+  height: 700px;
+  width: 820px;
+}
+.innerDiv {
+  align-content: center;
+  background-color: darkcyan;
+  margin: 3rem 8rem;
+  padding: 3rem;
+  display: block;
+  border-radius: 5px solid gray;
+  box-shadow: 0 5px 10px #272932;
+  height: 400px;
+  width: 480px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 480px;
+}
